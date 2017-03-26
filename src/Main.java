@@ -13,7 +13,7 @@ public class Main {
         userInfo.setNickName("zhangsan");
         userInfo.setRegion("+86");
         UserInfoManager.registerUserInfo(userInfo);
-
+        System.out.println(UserInfoManager.LoginUserInfo("18863014571","zhongjie"));
 
     }
 }

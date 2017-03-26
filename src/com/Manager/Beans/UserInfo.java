@@ -5,6 +5,10 @@ package com.Manager.Beans;
  */
 public class UserInfo
 {
+    public void setIdenfity(String idenfity) {
+        this.idenfity = idenfity;
+    }
+
     private String idenfity;
     private String phone;
     private String nickName;
