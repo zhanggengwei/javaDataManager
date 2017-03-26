@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b875bf7b-4243-4f8e-98ff-4d92e74249e7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/reflect/Tools/Person.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/reflect/Tools/ReflectDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/Manager/Beans/UserInfo.java" afterPath="$PROJECT_DIR$/src/com/Manager/Beans/UserInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tools/UserInfoManager.java" afterPath="$PROJECT_DIR$/src/com/tools/UserInfoManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dataBase.properties" afterPath="$PROJECT_DIR$/src/dataBase.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,7 +81,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserInfoManager.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserInfoManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/tools/UserInfoManager.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-308">
@@ -141,11 +137,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringDBUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tools/StringDBUtil.java">
+      <file leaf-file-name="dataBase.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/dataBase.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="72">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -179,7 +175,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/dataBase.properties" />
         <option value="$PROJECT_DIR$/src/DataManager.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/6b09f7b2-0b84-4a4c-acc7-2d8a9d14f01f/console_1.sql" />
         <option value="$PROJECT_DIR$/src/com/tools/DataManager.java" />
@@ -190,6 +185,7 @@
         <option value="$PROJECT_DIR$/src/com/reflect/Tools/Person.java" />
         <option value="$PROJECT_DIR$/src/com/reflect/Tools/ReflectDemo.java" />
         <option value="$PROJECT_DIR$/src/com/tools/UserInfoManager.java" />
+        <option value="$PROJECT_DIR$/src/dataBase.properties" />
       </list>
     </option>
   </component>
@@ -798,12 +794,12 @@
       <updated>1490448393346</updated>
       <workItem from="1490448395058" duration="266000" />
       <workItem from="1490448762536" duration="9514000" />
-      <workItem from="1490536710014" duration="2275000" />
+      <workItem from="1490536710014" duration="2379000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12055000" />
+    <option name="totallyTimeSpent" value="12159000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="7" y="23" width="1265" height="737" extended-state="0" />
@@ -1024,14 +1020,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dataBase.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="50" lean-forward="false" selection-start-line="0" selection-start-column="50" selection-end-line="0" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/sql/ResultSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3576">
@@ -1141,6 +1129,14 @@
             <marker date="1490549678000" expanded="true" signature="486:578" ph="insert into table... " />
             <marker date="1490549678000" expanded="true" signature="1065:1121" ph="select * fro... ?" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataBase.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
