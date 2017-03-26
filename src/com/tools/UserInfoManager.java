@@ -3,6 +3,8 @@ package com.tools;
 import com.Manager.Beans.UserInfo;
 
 import javax.xml.crypto.Data;
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;

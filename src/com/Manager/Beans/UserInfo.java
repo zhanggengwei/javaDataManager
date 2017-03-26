@@ -20,7 +20,7 @@ public class UserInfo
     public String getPhone() {
         return phone;
     }
-    
+
     public void setNickName(String nickName) {
         this.nickName = nickName;
     }
@@ -58,6 +58,5 @@ public class UserInfo
     public String getIdenfity() {
         return idenfity;
     }
-
-
+    
 }
