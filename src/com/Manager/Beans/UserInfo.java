@@ -5,9 +5,6 @@ package com.Manager.Beans;
  */
 public class UserInfo
 {
-    public void setIdenfity(String idenfity) {
-        this.idenfity = idenfity;
-    }
 
     private String idenfity;
     private String phone;
@@ -15,48 +12,52 @@ public class UserInfo
     private String passWord;
     private String region;
     private String register;
+    public void setPhone(String phone)
+    {
+        this.phone = phone;
+    }
+
     public String getPhone() {
         return phone;
     }
-
-    public void setPhone(String phone) {
-        this.phone = phone;
+    
+    public void setNickName(String nickName) {
+        this.nickName = nickName;
     }
 
     public String getNickName() {
         return nickName;
     }
 
-    public void setNickName(String nickName) {
-        this.nickName = nickName;
+    public void setPassWord(String passWord) {
+        this.passWord = passWord;
     }
 
     public String getPassWord() {
         return passWord;
     }
 
-    public void setPassWord(String passWord) {
-        this.passWord = passWord;
-    }
 
-    public String getRegion() {
-        return region;
-    }
 
     public void setRegion(String region) {
         this.region = region;
     }
 
-    public String getRegister() {
-        return register;
+    public String getRegion() {
+        return region;
     }
-
     public void setRegister(String register) {
         this.register = register;
     }
-
+    public String getRegister() {
+        return register;
+    }
+    public void setIdenfity(String idenfity) {
+        this.idenfity = idenfity;
+    }
     public String getIdenfity() {
         return idenfity;
     }
+
 
 }
