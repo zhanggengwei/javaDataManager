@@ -1,7 +1,10 @@
 import com.Manager.Beans.UserInfo;
+import com.Servlet.demo.RegisterServlet;
 import com.reflect.StringPattern.StringPattern;
 import com.tools.DataManager;
 import com.tools.UserInfoManager;
+
+import java.io.IOException;
 
 public class Main {
 
@@ -18,6 +21,11 @@ public class Main {
 //
 
         StringPattern.sortIPAddress();
+        try {
+            RegisterServlet.receiveRegiserServlet();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
     }
 }
