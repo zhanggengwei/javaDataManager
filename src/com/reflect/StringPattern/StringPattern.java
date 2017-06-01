@@ -66,13 +66,7 @@ public class StringPattern {
    public static Boolean emailAddress(String email)
    {
        Boolean isEmail = false;
-
        String emailRegex = "[0-9a-zA-Z-]+@[0-9a-zA-Z]+\\.[a-zA-Z]{1,4}";
-
-
-
-
-
        return  true;
    }
 
